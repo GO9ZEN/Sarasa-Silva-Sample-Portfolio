@@ -1,0 +1,592 @@
+/**********************************************************/
+/****************** ABOUT-SECTION ******************/
+/**********************************************************/
+.about-section {
+    display: flex;
+    width: 100%;
+    min-height: 1000px;
+    /* background: #2A0944; */
+    background: #003F5C ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #e4e4e4;
+}
+
+.about-section-size {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.about-part-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.about-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e4e4e4;
+}
+
+.about-header span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-para-p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.show-more-button {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #D61C4E;
+}
+
+.about-part-two-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.heading-part span {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.skills-percent {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 10px;
+}
+
+.skills-part {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    gap: 25px;
+}
+
+.skills-part-span {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+.skills-part-span span {
+    font-size: 20px;
+}
+
+.skills-span-one {
+
+}
+
+.skills-span-two {
+    color: #a8a8a8;
+    margin-left: 460px;
+    position: absolute;
+}
+
+.skills-part-box {
+    height: 10px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #D61C4E;
+}
+
+.percent-part-skills {
+    background: #D61C4E;
+    height: 100%;
+    /* width: 0%; */
+    /* opacity: 0; */
+    /* transition: all 0.5s ease; */
+}
+
+.html-part {
+    width: 80%;
+}
+
+.css-part {
+    width: 75%;
+}
+
+.javascript-part {
+    width: 60%;
+}
+
+.python-part {
+    width: 50%;
+}
+
+.react-part {
+    width: 60%;
+}
+
+.nodejs-part {
+    width: 40%;
+}
+
+.bootstrap-part {
+    width: 60%;
+}
+
+.figma-part {
+    width: 50%;
+}
+
+.git-part {
+    width: 50%;
+}
+
+.view-more-button {
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #D61C4E;
+    display: none;
+}
+
+.close-button {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+}
+
+.close-button i {
+    font-size: 50px;
+    color: #D61C4E;
+    cursor: pointer;
+}
+
+.close-button i:hover {
+    color: #ff0044;
+}
+
+.percent-part-skills-responsive {
+    background: #D61C4E;
+    height: 100%;
+}
+
+/****************************************/
+/***** ABOUT-SECTION-SHOW-MORE - (0px - 1651px)  *****/
+/****************************************/
+@media all and (max-width: 1651px) {
+    .show-more-button {
+        display: flex;
+    }
+}
+
+/****************************************/
+/***** ABOUT-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .about-section {
+        min-height: 900px;
+        padding: 30px 0;
+    }
+    
+    .about-section-size {
+        width: 84%;
+        gap: 36px;
+    }
+    
+    .about-part-one {
+        gap: 23px;
+    }
+    
+    .about-header {
+        gap: 7px;
+    }
+    
+    .about-header span {
+        font-size: 46px;
+    }
+
+    .about-para {
+        gap: 9px;
+    }
+    
+    .show-more-button {
+        font-size: 18px;
+    }
+    
+    .about-part-two-heading {
+        gap: 23px;
+    }
+    
+    .heading-part span {
+        font-size: 28px;
+    }
+    
+    .skills-percent {
+        gap: 9px;
+    }
+    
+    .skills-part {
+        gap: 23px;
+    }
+    
+    .skills-part-span span {
+        font-size: 18px;
+    }
+    
+    .skills-span-two {
+        margin-left: 420px;
+    }
+    
+    .skills-part-box {
+        height: 9px;
+        width: 460px;
+    }
+
+    .view-more-button {
+        display: flex;
+        font-size: 18px;
+    }
+
+    .git-part-box {
+        display: none;
+    }
+
+    .close-button i {
+        font-size: 46px;
+    }
+}
+
+/****************************************/
+/***** ABOUT-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .about-section {
+        min-height: 800px;
+        padding: 26px 0;
+    }
+    
+    .about-section-size {
+        width: 88%;
+        gap: 32px;
+    }
+    
+    .about-part-one {
+        gap: 21px;
+    }
+    
+    .about-header {
+        gap: 6px;
+    }
+    
+    .about-header span {
+        font-size: 42px;
+    }
+
+    .about-para {
+        gap: 8px;
+    }
+    
+    .show-more-button {
+        font-size: 16px;
+    }
+    
+    .about-part-two-heading {
+        gap: 21px;
+    }
+    
+    .heading-part span {
+        font-size: 26px;
+    }
+    
+    .skills-percent {
+        gap: 8px;
+    }
+    
+    .skills-part {
+        gap: 21px;
+    }
+    
+    .skills-part-span span {
+        font-size: 16px;
+    }
+    
+    .skills-span-two {
+        margin-left: 380px;
+    }
+    
+    .skills-part-box {
+        height: 8px;
+        width: 420px;
+    }
+
+    .view-more-button {
+        display: flex;
+        font-size: 16px;
+    }
+
+    .figma-part-box {
+        display: none;
+    }
+
+    .close-button i {
+        font-size: 42px;
+    }
+}
+
+/****************************************/
+/***** ABOUT-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .about-section {
+        min-height: 700px;
+        padding: 22px 0;
+    }
+    
+    .about-section-size {
+        width: 92%;
+        gap: 28px;
+    }
+    
+    .about-part-one {
+        gap: 19px;
+    }
+    
+    .about-header {
+        gap: 5px;
+    }
+    
+    .about-header span {
+        font-size: 32px;
+    }
+
+    .about-para {
+        gap: 7px;
+    }
+    
+    .show-more-button {
+        font-size: 14px;
+    }
+    
+    .about-part-two-heading {
+        gap: 19px;
+    }
+    
+    .heading-part span {
+        font-size: 24px;
+    }
+    
+    .skills-percent {
+        gap: 7px;
+    }
+    
+    .skills-part {
+        gap: 19px;
+    }
+    
+    .skills-part-span span {
+        font-size: 14px;
+    }
+    
+    .skills-span-two {
+        margin-left: 290px;
+    }
+    
+    .skills-part-box {
+        height: 7px;
+        width: 320px;
+    }
+
+    .view-more-button {
+        display: flex;
+        font-size: 14px;
+    }
+
+    .bootstrap-part-box {
+        display: none;
+    }
+
+    .close-button i {
+        font-size: 38px;
+        right: 15px;
+        top: 15px;
+    }
+}
+
+/****************************************/
+/***** ABOUT-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .about-section {
+        min-height: 500px;
+        padding: 20px 0;
+    }
+    
+    .about-section-size {
+        width: 96%;
+        gap: 24px;
+    }
+    
+    .about-part-one {
+        gap: 17px;
+    }
+    
+    .about-header {
+        gap: 4px;
+    }
+    
+    .about-header span {
+        font-size: 28px;
+    }
+
+    .about-para {
+        gap: 6px;
+    }
+    
+    .show-more-button {
+        font-size: 12px;
+    }
+    
+    .about-part-two-heading {
+        gap: 17px;
+    }
+    
+    .heading-part span {
+        font-size: 22px;
+    }
+    
+    .skills-percent {
+        gap: 6px;
+    }
+    
+    .skills-part {
+        gap: 17px;
+    }
+    
+    .skills-part-span span {
+        font-size: 12px;
+    }
+    
+    .skills-span-two {
+        margin-left: 250px;
+    }
+    
+    .skills-part-box {
+        height: 6px;
+        width: 280px;
+    }
+
+    .view-more-button {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .nodejs-part-box {
+        display: none;
+    }
+
+    .close-button i {
+        font-size: 34px;
+    }
+}
+
+/****************************************/
+/***** ABOUT-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .about-section {
+        min-height: 400px;
+        padding: 16px 0;
+    }
+    
+    .about-section-size {
+        width: 98%;
+        gap: 20px;
+    }
+    
+    .about-part-one {
+        gap: 16px;
+    }
+    
+    .about-header {
+        gap: 4px;
+    }
+    
+    .about-header span {
+        font-size: 26px;
+    }
+
+    .about-para {
+        gap: 6px;
+    }
+    
+    .show-more-button {
+        font-size: 10px;
+    }
+    
+    .about-part-two-heading {
+        gap: 16px;
+    }
+    
+    .heading-part span {
+        font-size: 20px;
+    }
+    
+    .skills-percent {
+        gap: 6px;
+    }
+    
+    .skills-part {
+        gap: 16px;
+    }
+    
+    .skills-part-span span {
+        font-size: 10px;
+    }
+    
+    .skills-span-two {
+        margin-left: 220px;
+    }
+    
+    .skills-part-box {
+        height: 6px;
+        width: 240px;
+    }
+
+    .view-more-button {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .react-part-box {
+        display: none;
+    }
+
+    .close-button i {
+        font-size: 30px;
+    }
+}

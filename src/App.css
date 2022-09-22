@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    color: #e4e4e4;
+}
+
+.AnyClassForContainer {
+    position: fixed;
+    right: -100px;
+    bottom: 30px;
+    transition: right 0.5s;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: #D61C4E;
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.AnyClassForContainer i {
+    font-size: 30px;
+}
+  
+.AnyClassForContainer:hover {
+    transform: translateY(-2px);
+    background: #D61C4E;
+    box-shadow: 0 0 5px #D61C4E,
+                0 0 25px #D61C4E,
+                0 0 50px #D61C4E,
+                0 0 200px #D61C4E;
+}
+
+.AnyClassForTransition {
+    right: 30px;
+}
+
+.hr-part {
+    margin-top: 8px;
+    height: 4px;
+    width:  300px;
+    background: #D61C4E;
+}
+
+/****************************************/
+/***** CONTACT-SECTION - (1025px - 1200px)  *****/
+/****************************************/
+@media all and (max-width: 1200px) {
+    .hr-part {
+        margin-top: 7px;
+        width:  250px;
+    }
+
+    .AnyClassForContainer {
+        right: -90px;
+        bottom: 32px;
+        padding: 9px;
+        height: 43px;
+        width: 43px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 28px;
+    }
+    
+    .AnyClassForTransition {
+        right: 28px;
+    }
+}
+
+/****************************************/
+/***** CONTACT-SECTION - (769px - 1024px)  *****/
+/****************************************/
+@media all and (max-width: 1024px) {
+    .hr-part {
+        margin-top: 6px;
+        width:  200px;
+    }
+
+    .AnyClassForContainer {
+        right: -80px;
+        bottom: 34px;
+        padding: 8px;
+        height: 41px;
+        width: 41px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 26px;
+    }
+    
+    .AnyClassForTransition {
+        right: 26px;
+    }
+}
+
+/****************************************/
+/***** CONTACT-SECTION - (481px - 768px)  *****/
+/****************************************/
+@media all and (max-width: 768px) {
+    .hr-part {
+        margin-top: 5px;
+        width:  120px;
+    }
+
+    .AnyClassForContainer {
+        right: -70px;
+        bottom: 24px;
+        padding: 7px;
+        height: 39px;
+        width: 39px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 24px;
+    }
+    
+    .AnyClassForTransition {
+        right: 24px;
+    }
+}
+
+/****************************************/
+/***** CONTACT-SECTION - (321px - 480px)  *****/
+/****************************************/
+@media all and (max-width: 480px) {
+    .hr-part {
+        margin-top: 4px;
+        width:  80px;
+    }
+
+    .AnyClassForContainer {
+        right: -50px;
+        bottom: 24px;
+        padding: 5px;
+        height: 36px;
+        width: 36px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 20px;
+    }
+    
+    .AnyClassForTransition {
+        right: 20px;
+    }
+}
+
+/****************************************/
+/***** CONTACT-SECTION - (0px - 320px)  *****/
+/****************************************/
+@media all and (max-width: 320px) {
+    .hr-part {
+        margin-top: 4px;
+        width:  60px;
+    }
+
+    .AnyClassForContainer {
+        right: -40px;
+        bottom: 26px;
+        padding: 4px;
+        height: 34px;
+        width: 34px;
+    }
+    
+    .AnyClassForContainer i {
+        font-size: 18px;
+    }
+    
+    .AnyClassForTransition {
+        right: 12px;
+    }
+}
